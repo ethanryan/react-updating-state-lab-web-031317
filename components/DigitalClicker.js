@@ -20,7 +20,7 @@ class DigitalClicker extends React.Component {
     var timesClicked = this.state.timesClicked
 
     this.setState({
-    timesClicked: this.state.timesClicked+1,
+    timesClicked: this.state.timesClicked + 1, //why not ++ ???
     });
     console.log(this.state.timesClicked);
   }
